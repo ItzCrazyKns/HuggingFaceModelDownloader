@@ -12,9 +12,10 @@ import (
 	"runtime"
 	"time"
 
-	hfd "github.com/bodaay/HuggingFaceModelDownloader/hfdownloader"
 	"github.com/joho/godotenv"
 	"github.com/spf13/cobra"
+
+	hfd "github.com/knights-analytics/HuggingFaceModelDownloader/hfdownloader"
 )
 
 const VERSION = "1.3.4"
